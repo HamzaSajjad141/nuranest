@@ -63,10 +63,10 @@ log/
 *.sqlite
 *.sqlite3
 
-# Vectorstore files
-vectorstore_local/
-*.faiss
-*.pkl
+# Vectorstore files (commented out to include in repo for deployment)
+# vectorstore_local/
+# *.faiss
+# *.pkl
 
 # Medical data (optional - remove if you want to include PDFs)
 medical_data/
